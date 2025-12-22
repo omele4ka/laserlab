@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaserLab - Лазерная резка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo"><img class="logo_img" src="img/logo.png" alt="логотип"></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#services" class="nav__link">Направления</a></li>
+                    <li><a href="#advantages" class="nav__link">Преимущества</a></li>
+                    <li><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+                <div class="nav__phone-block">
+                    <div class="header__socials-mini">
+                        <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon soc-wa-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                                <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="tel:+79363144401" class="header__tel">+7(936)314-44-01</a>
+                </div>
+            </nav>
+            <button class="burger-btn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li><a href="#services" class="mobile-menu__link">Направления</a></li>
+            <li><a href="#advantages" class="mobile-menu__link">Преимущества</a></li>
+            <li><a href="#contact" class="mobile-menu__link">Контакты</a></li>
+        </ul>
+        <div class="mobile-menu__footer">
+            <a href="tel:+79363144401" class="mobile-menu__phone">+7(936)314-44-01</a>
+            <div class="mobile-menu__socials">
+                <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                        <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="section catalog-content">
+        <div class="container">
+            <h1 class="catalog-title">Лазерная резка</h1>
+            <p class="catalog-descr">
+                Мы предоставляем услуги высокоточной лазерной резки широкого спектра материалов. Идеально для изготовления деталей, прототипов и сложных контуров.
+            </p>
+            <div class="catalog-cta-wrapper">
+                <button class="btn btn--hero js-open-modal" data-modal="contact-modal">Заказать расчет проекта</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка фанеры.png" alt="резка фанеры">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Фанера</h4>
+                        <p>Профессиональная лазерная резка качественной фанеры марки ФК. В работе используем материал только <b>1-го и 2-го сорта</b>, который предварительно отшлифован <b>с двух сторон</b>. Это гарантирует безупречную чистоту реза и готовность деталей к последующей сборке или покраске.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Наши возможности:</p>
+                        <li>Толщина материала: <b>от 3 до 12 мм</b>.</li>
+                        <li>Высокая точность: чистая кромка, сложные контуры.</li>
+                        <li>Скорость выполнения: от чертежа до готовых деталей в кратчайшие сроки.</li>
+                        <p>Идеально для создания декоративных элементов, интерьерных изделий, сувениров, деталей моделей и многого другого. Присылайте свои макеты — реализуем ваш проект безупречно.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка акрила.png" alt="резка акрила">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Пластик (акрил, полистирол, ABS, ПЭТ)</h4>
+                        <p>Превращаем идеи в четкие формы с помощью лазерной резки листовых пластиков.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p><b>С какими материалами работаем:</b></p>
+                        <li>Акрил (ПММА) — для световых конструкций, дисплеев, стильных акцентов табличек, световых коробов, элементов декора.</li>
+                        <li>Полистирол (ПС) — легкий материал для рекламной продукции, трафаретов и макетов.</li>
+                        <li>ABS — ударопрочный пластик для технических деталей, корпусов и функциональных моделей.</li>
+                        <li>ПЭТ  — жесткий и экологичный материал для упаковки, держателей и инженерных решений.</li>
+                        <p><b>Наши возможности:</b></p>
+                        <li>Работаем с толщиной: от <b>0,5 до 15 мм</b>.</li>
+                        <li>Высокая скорость и чистота обработки.</li>
+                        <li>Точное соответствие вашим чертежам.</li>
+                        <p>Идеальное решение для рекламы, дизайна и серийного производства.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка картона.png" alt="резка картона">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Картон (гофрокартон, переплетный, электрокартон)</h4>
+                        <p>Точная и чистая резка картона для упаковки, рекламы и макетов. Мы работаем с различными типами картона.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p><b>Обрабатываемые материалы:</b></p>
+                        <li>Гофрокартон — для индивидуальной упаковки, дизайнерских шоу- боксов и промо-конструкций.</li>
+                        <li>Переплетный картон — для полиграфической продукции, плотной упаковки, пазлов и макетов.</li>
+                        <li>Электрокартон — для производства электротехнических изоляционных деталей.</li>
+                        <p><b>Наши возможности:</b></p>
+                        <li>Толщина материала: от <b>0,3 до 5 мм</b>.</li>
+                        <li>Высокая скорость обработки и чистота края.</li>
+                        <p>Идеальный инструмент для дизайнеров, инженеров, архитекторов и производителей</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка пенополистирола.png" alt="резка пенополистирола">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Пенополистирол</h4>
+                        <p>Профессиональная лазерная резка пенополистирола для точного моделирования, рекламы и дизайна.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Наше оборудование позволяет бесконтактно и аккуратно обрабатывать материал толщиной от <b>0,5 до 15 мм</b>, создавая сложные двухмерные формы, буквы, логотипы и архитектурные макеты с идеально гладкими кромками без механических повреждений. Идеальное решение для воплощения детализированных проектов.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка пенокартона.png" alt="резка пенокартона">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Пенокартон</h4>
+                        <p>Лазерная резка пенокартона. Идеальная точность для лёгкого и прочного материала.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p> Лазерная резка позволяет работать с пенокартоном любой толщины — от <b>0,5 мм до 30 мм</b>. Мы создаём безупречные детали для архитектурных макетов, упаковки, выставочных конструкций и предметов дизайна. Гладкий, аккуратный край без сколов и деформаций гарантирует профессиональный вид вашего проекта.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка ЭВА.png" alt="Резка уплотнителей и демпферов">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>EVA</h4>
+                        <p>Лазерная резка EVA (1–20 мм). Раскройте возможности мягкого и прочного EVA-материала!</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Лазерная резка позволяет вырезать из EVA различной толщины фигуры любой сложности — от миниатюрных деталей для hand-made до крупных элементов для дизайна и рекламы. Идеально ровные края не требуют обработки и выглядят безупречно. Создавайте украшения, коврики, развивающие игрушки, нестандартные вставки и многое другое с филигранной точностью лазера.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка фетр.png" alt="резка фетра">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Фетр</h4>
+                        <p>Лазерная резка фетра (1–20 мм). Идеальная чистота и точность для ваших проектов.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Лазерная технология позволяет раскраивать фетр любой толщины (от 1 до 20 мм) с филигранной детализацией, создавая сложные формы и аппликации. Кромка получается аккуратно оплавленной, что предотвращает осыпание и придаёт изделиям профессиональный законченный вид. Идеальное решение для дизайнеров, производителей игрушек, hand-made мастеров и рекламных компаний.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/резка поролона.png" alt="Резка уплотнителей и демпферов">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Поролон</h4>
+                        <p>Лазерная резка поролона (1–100 мм). Высокоточная и чистая обработка эластичных материалов.</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Лазерная технология позволяет выполнять сложный раскрой поролона различной плотности и толщины — от тонких листов в 1 мм до массивных блоков до 100 мм. Метод гарантирует безупречно ровные, аккуратно оплавленные кромки без деформации и крошения материала.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <h3>Контакты</h3>
+                <p><a href="tel:+79363144401">+7(936)314-44-01</a></p>
+                <p><a href="mailto:laserlab77@mail.ru">laserlab77@mail.ru</a></p>
+                <p class="footer__address">Москва, Боровая улица, 7с4</p>
+            </div>
+            <div class="footer__socials">
+                <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon soc-wa-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                        <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" id="contact-modal">
+    <div class="modal__overlay" data-modal-close></div>
+    <div class="modal__content">
+        <button class="modal__close-btn js-close-modal">&times;</button>
+        <h3>Заказать звонок</h3>
+        <form class="contact-form" id="callback-form" method="POST" action="https://formsubmit.co/laserlab77@mail.ru">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="tel" name="phone" placeholder="Ваш телефон" required pattern="[0-9]{7,15}">
+            <button type="submit" class="btn contact-form__submit">Отправить</button>
+        </form>
+        </div>
+    </div>
+    <div id="product-detail" class="product-detail-overlay" style="display: none;">
+        <div class="product-detail-content">
+            <button class="btn-back js-close-detail">← Назад к списку</button>
+            <div class="product-detail-grid">
+                <div class="product-detail-image">
+                    <img id="detail-img" src="" alt="">
+                </div>
+                <div class="product-detail-info">
+                    <h2 id="detail-title"></h2>
+                    <div id="detail-full-text"></div>
+                    <button class="btn btn--accent js-open-modal" style="margin-top: 20px;">Заказать расчет</button>
+                </div>
+            </div>
+            <button class="btn-back js-close-detail" style="margin-top: 30px;">← Назад к списку</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

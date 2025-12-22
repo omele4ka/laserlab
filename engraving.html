@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaserLab - Лазерная гравировка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <a href="index.html" class="logo"><img class="logo_img" src="img/logo.png" alt="логотип"></a>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="#services" class="nav__link">Направления</a></li>
+                    <li><a href="#advantages" class="nav__link">Преимущества</a></li>
+                    <li><a href="#contact" class="nav__link">Контакты</a></li>
+                </ul>
+                <div class="nav__phone-block">
+                    <div class="header__socials-mini">
+                        <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16"/>
+                                <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                            </svg>
+                        </a>
+                        <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon soc-wa-mini">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                                <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <a href="tel:+79363144401" class="header__tel">+7(936)314-44-01</a>
+                </div>
+            </nav>
+            <button class="burger-btn" aria-label="Открыть меню">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <ul class="mobile-menu__list">
+            <li><a href="#services" class="mobile-menu__link">Направления</a></li>
+            <li><a href="#advantages" class="mobile-menu__link">Преимущества</a></li>
+            <li><a href="#contact" class="mobile-menu__link">Контакты</a></li>
+        </ul>
+        <div class="mobile-menu__footer">
+            <a href="tel:+79363144401" class="mobile-menu__phone">+7(936)314-44-01</a>
+            <div class="mobile-menu__socials">
+                <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                        <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    <section class="section catalog-content">
+        <div class="container">
+            <h1 class="catalog-title">Лазерная гравировка</h1>
+            
+            <p class="catalog-descr">
+                Идеальный метод для персонализации и брендирования. <br>Нанесение логотипов, надписей и изображений на дерево, акрил, металл и другие материалы.
+            </p>
+
+            <div class="catalog-cta-wrapper">
+                <button class="btn btn--hero js-open-modal" data-modal="contact-modal">Заказать расчет проекта</button>
+            </div>
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/гравировка дерево.png" alt="гравировка дерево">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Дерево, МДФ, фанера</h4>
+                        <p>Лазерная гравировка для бизнеса: дерево, МДФ, фанера</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Оптимизируйте маркировку, брендирование и кастомизацию продукции из дерева и древесных плит. Мы обеспечиваем промышленную лазерную гравировку крупных тиражей на материалах любой плотности и формата с безупречной повторяемостью каждого экземпляра. Наше оборудование и регламенты гарантируют высокую скорость обработки, чистоту гравировки и минимальный процент брака. Решение для брендированной упаковки, корпоративных подарков, POS- материалов, мебельных фасадов и архитектурных элементов.</p>
+                        <p><b>Ключевые преимущества:</b></p>
+                        <li>стабильное качество тиража</li>
+                        <li>готовность к сложным ТЗ</li>
+                        <li>отлаженная логистика</li>
+                        <li>работа по спецификациям заказчика.</li>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/гравировка акрил.png" alt="Корпоративные подарки">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Акрил</h4>
+                        <p>Промышленная лазерная гравировка акрила для брендов и производителей</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Добавьте стоимости и узнаваемости вашей продукции с помощью высокоточной лазерной гравировки на акриле. Наша технология обеспечивает чистую, контрастную и долговечную маркировку любых тиражей — от корпоративных наград и POS-материалов до брендированных фасадов и архитектурных элементов.</p>
+                        <p><b>Ключевые преимущества для бизнеса:</b></p>
+                        <li>Тиражируемое качество: Безупречная повторяемость гравировки на каждом изделии, независимо от объема заказа.</li>
+                        <li>Скорость и масштаб: Производственные мощности для оперативного выполнения крупных партий.</li>
+                        <li>Гибкость и сложность: Высокая детализация любой графики — от логотипов и QR-кодов до сложных пиктограмм и сквозных 3D-эффектов.</li>
+                        <li>Интеграция в процесс: Работаем по вашим техзаданиям и спецификациям, обеспечивая поставку «точно в срок».</li>
+                        <p><b>Оптимально для:</b> изготовления брендированных премиум-сувениров, элементов навигации и интерьера, информационных табличек, выставочных конструкций и инженерной маркировки.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/гравировка стекло.png" alt="гравировка стекло">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Стекло</h4>
+                        <p>Лазерная гравировка на стекле для корпоративного и производственного сектора</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Добавьте статусности и индивидуальности вашим проектам с помощью высокоточной лазерной гравировки на стекле. Мы обеспечиваем чистую, стойкую матировку и маркировку на стекле любых типов и толщин, гарантируя высочайшее качество на всем протяжении тиража. Решение идеально для создания эксклюзивной сувенирной и подарочной продукции, фирменной посуды, элементов интерьера, выставочных конструкций и архитектурных стеклянных панелей.</p>
+                        <p><b>Ключевые преимущества для бизнеса:</b>высокая детализация и контрастность, возможность работы с криволинейными поверхностями (стеклянная посуда), соответствие стандартам для контактных с пищевыми продуктами поверхностей, идеальная повторяемость в крупных тиражах.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/гравировка пластик.png" alt="гравировка пластик">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Пластик</h4>
+                        <p>Промышленная лазерная гравировка пластика для брендинга и маркировки</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Эффективное решение для нанесения нестираемой маркировки, логотипов и штрих-кодов на изделия и упаковку из различных видов пластика. Технология обеспечивает высокую скорость и точность, легко интегрируется в производственный цикл и является оптимальной альтернативой традиционной печати для создания долговечных и устойчивых к внешним воздействиям изображений.</p>
+                        <p><b>Ключевые преимущества для бизнеса:</b>возможность глубокой и поверхностной гравировки, работа с трудными для маркировки темными пластиками, стойкость к истиранию и химическим средам, полная автоматизация процесса для крупносерийных задач, соответствие отраслевым стандартам маркировки.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+                <div class="product-card">
+                    <div class="product-card__image">
+                        <img src="img/гравировка кожа.png" alt="Свадебный декор">
+                    </div>
+                    <div class="product-card__info">
+                        <h4>Кожа</h4>
+                        <p>Лазерная гравировка на коже для премиального брендинга и персонализации</p>
+                    </div>
+                    <div class="full-description" style="display: none;">
+                        <p>Создавайте уникальные продукты с добавленной стоимостью с помощью лазерной гравировки на натуральной и экокоже. Технология позволяет наносить сложные логотипы, узоры, серийные номера и персональные данные с безупречной четкостью. Это профессиональное решение для производителей галантереи, корпоративных подарков, мебели, автомобильного салона и элементов роскошной отделки.</p>                    
+                        <p><b>Преимущества для бизнеса:</b> бесконтактный метод без деформации материала, возможность обработки готовых изделий (портфели, кресла), глубокая и выразительная маркировка, имитирующая тиснение, высокая скорость для серийного производства и кастомизации.</p>
+                    </div>
+                    <button class="btn btn-more">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer" id="contact">
+        <div class="container footer__container">
+            <div class="footer__info">
+                <h3>Контакты</h3>
+                <p><a href="tel:+79363144401">+7(936)314-44-01</a></p>
+                <p><a href="mailto:laserlab77@mail.ru">laserlab77@mail.ru</a></p>
+                <p class="footer__address">Москва, Боровая улица, 7с4</p>
+            </div>
+            <div class="footer__socials">
+                <a href="https://vk.com/laserlaboratory" target="_blank" class="social-icon soc-vk-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M17.15 22.4c-4.87 0-7.65-3.34-7.77-8.9h2.41c.08 4.08 1.88 5.81 3.3 6.16V13.5h2.27v3.52c1.39-.15 2.82-1.74 3.32-3.52h2.27c-.4 2.22-2.02 3.81-3.21 4.5 1.2 1.07 3.01 2.45 3.65 4.4h-2.48c-.5-1.57-1.76-2.78-3.32-2.93v2.93h-.44z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/+79363144401" target="_blank" class="social-icon soc-tg-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M23 10L8 16L12.5 18.5L20 13L15 19L20 22L23 10Z" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://wa.me/79363144401" target="_blank" class="social-icon soc-wa-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16"/>
+                        <path d="M16 8C11.58 8 8 11.58 8 16C8 17.58 8.46 19.05 9.25 20.3L8 24L11.83 22.77C13.06 23.55 14.48 24 16 24C20.42 24 24 20.42 24 16C24 11.58 20.42 8 16 8ZM19.8 19.34C19.55 20.04 18.51 20.6 17.95 20.67C17.44 20.73 16.78 20.92 14.53 20C11.64 18.82 9.77 15.88 9.63 15.69C9.49 15.5 8.44 14.11 8.44 12.68C8.44 11.25 9.17 10.55 9.47 10.26C9.71 10.03 10.1 9.92 10.48 9.92C10.6 9.92 10.72 9.93 10.82 9.93C11.13 9.95 11.28 9.97 11.49 10.46C11.75 11.08 12.38 12.63 12.45 12.78C12.53 12.93 12.6 13.12 12.5 13.31C12.4 13.5 12.33 13.59 12.18 13.76C12.03 13.93 11.89 14.07 11.74 14.26C11.6 14.43 11.44 14.63 11.64 14.98C11.84 15.33 12.53 16.46 13.54 17.36C14.85 18.52 15.91 18.9 16.3 19.08C16.69 19.26 16.92 19.22 17.15 18.96C17.38 18.7 18.15 17.8 18.44 17.41C18.73 17.02 19.03 17.1 19.4 17.25C19.78 17.4 21.79 18.39 21.79 18.39C21.79 18.39 21.79 18.39 21.79 18.39" fill="white"/>
+                    </svg>
+                </a>
+                <a href="https://max.ru/u/f9LHodD0cOJeE9eINkm-oCl4ajC9Mu6RRH30dMtrzcRRQ145QHzJp0qRFZE" target="_blank" aria-label="Макс" class="social-icon soc-wa-mini">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="16" cy="16" r="16" fill="#259da8"/>
+                        <path d="M9 10H11.5L16 16.5L20.5 10H23V22H20.5V13L16 19.5L11.5 13V22H9V10Z" fill="white"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="contact-modal">
+        <div class="modal__overlay" data-modal-close></div>
+        <div class="modal__content">
+            <button class="modal__close-btn js-close-modal">&times;</button>
+                <h3>Заказать звонок</h3>
+                <form class="contact-form" id="callback-form" method="POST" action="https://formsubmit.co/laserlab77@mail.ru">
+                    <input type="text" name="name" placeholder="Ваше имя" required>
+                    <input type="tel" name="phone" placeholder="Ваш телефон" required pattern="[0-9]{7,15}">
+                    <button type="submit" class="btn contact-form__submit">Отправить</button>
+                </form>
+        </div>
+    </div>
+    <div id="product-detail" class="product-detail-overlay" style="display: none;">
+        <div class="product-detail-content">
+            <button class="btn-back" id="close-detail">← Назад к списку</button>
+            <div class="product-detail-grid">
+                <div class="product-detail-image">
+                    <img id="detail-img" src="" alt="">
+                </div>
+                <div class="product-detail-info">
+                    <h2 id="detail-title"></h2>
+                    <div id="detail-full-text"></div>
+                    <button class="btn btn--accent js-open-modal" style="margin-top: 20px;">Заказать расчет</button>
+                </div>
+            </div>
+            <button class="btn-back js-close-detail" style="margin-top: 30px;">← Назад к списку</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
